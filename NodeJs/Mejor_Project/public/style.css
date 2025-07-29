@@ -1,0 +1,101 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0077cc;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #0077cc;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    width: 50%;
+    padding: 12px;
+    background-color: #0077cc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 90px;
+    
+    
+}
+
+.btn:hover {
+    background-color: #005fa3;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #444;
+    /* text-align: center; */
+}
+
+ul#Shortend-urls {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+ul#Shortend-urls li {
+    padding: 10px;
+    background-color: #eef5fb;
+    margin-bottom: 8px;
+    border-left: 5px solid #0077cc;
+    border-radius: 6px;
+    word-break: break-all;
+}
